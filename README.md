@@ -1,5 +1,6 @@
 # Morpheus-STM32 (work in progress)
 A cheap 3D printer controller board for use with a "blue pill" STM32F1 generic board. Inspired on http://reprap.org/wiki/SinapTec
+Just a copy of the project. Will be supplemented by independent information and configuration.
 
 It's design goals are:
 
@@ -32,3 +33,4 @@ Features:
  Notes:
  - Usually, "blue pill" boards have a wrong R10 value (USB pullpup resistor, should be 1.5k but manufcturers place a 10k resistor instead), so you can add a 1.8k in R13. If your board has the correct value or you already fixed it in the board, then leave R13 unpopulated.
  - Hotend sensor uses a 1k resistor pullup (R1). If you're having trouble with thermistor tables replace it with a 4.7k resistor.
+ 
